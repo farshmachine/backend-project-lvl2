@@ -1,0 +1,26 @@
+{
+  "name": "@hexlet/code",
+  "version": "0.0.2",
+  "bin": {
+    "gendiff": "bin/gendiff.js"
+  },
+  "description": "[![Actions Status](https://github.com/farshmachine/backend-project-lvl2/workflows/hexlet-check/badge.svg)](https://github.com/farshmachine/backend-project-lvl2/actions)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farshmachine/backend-project-lvl2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farshmachine/backend-project-lvl2/issues"
+  },
+  "homepage": "https://github.com/farshmachine/backend-project-lvl2#readme",
+  "dependencies": {
+    "commander": "^8.3.0"
+  }
+}
