@@ -22,5 +22,10 @@
   "homepage": "https://github.com/farshmachine/backend-project-lvl2#readme",
   "dependencies": {
     "commander": "^8.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.5.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.3"
   }
 }
