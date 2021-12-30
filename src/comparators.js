@@ -75,8 +75,11 @@ function prepareOutput(obj) {
   return `{\n${diff}}`;
 }
 
-export {
-  getFilesData,
-  mergeObjectValues,
-  prepareOutput,
-};
+function printFileDiff(filepath1, filepath2) {
+  const data = getFilesData(filepath1, filepath2);
+  const diff = mergeObjectValues(data);
+  const output = prepareOutput(diff);
+  console.log(output);
+}
+
+export default printFileDiff;

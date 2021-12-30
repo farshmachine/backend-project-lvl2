@@ -24,8 +24,12 @@
     "commander": "^8.3.0"
   },
   "devDependencies": {
+    "@jest/globals": "^27.4.4",
     "eslint": "^8.5.0",
     "eslint-config-airbnb": "^19.0.4",
-    "eslint-plugin-import": "^2.25.3"
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jest": "^25.3.2",
+    "jest": "^27.4.5",
+    "jest-cli": "^27.4.5"
   }
 }

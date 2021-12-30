@@ -1,11 +1,7 @@
 #!/usr/bin/env node
 
-import { Command } from 'commander/esm';
-import {
-  getFilesData,
-  mergeObjectValues,
-  prepareOutput,
-} from '../src/comparators';
+const { Command } = require('commander');
+const jsonDiff = require('../src/comparators');
 
 const program = new Command();
 
@@ -16,10 +12,7 @@ program
   .argument('<filepath2>')
   .option('-f, --format [type]', 'output format')
   .action((filepath1, filepath2) => {
-    const data = getFilesData(filepath1, filepath2);
-    const diff = mergeObjectValues(data);
-    const output = prepareOutput(diff);
-    console.log(output);
+    jsonDiff(filepath1, filepath2);
   });
 
 program.parse();
