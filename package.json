@@ -21,13 +21,15 @@
   },
   "homepage": "https://github.com/farshmachine/backend-project-lvl2#readme",
   "dependencies": {
-    "commander": "^8.3.0"
+    "commander": "^8.3.0",
+    "js-yaml": "^4.1.0",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@jest/globals": "^27.4.4",
     "eslint": "^8.5.0",
     "eslint-config-airbnb": "^19.0.4",
-    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jest": "^25.3.2",
     "jest": "^27.4.5",
     "jest-cli": "^27.4.5"

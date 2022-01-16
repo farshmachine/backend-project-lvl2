@@ -4,9 +4,11 @@ env:
 extends:
   - airbnb-base
   - "plugin:jest/recommended"
+  - plugin:import/recommended
 parserOptions:
   ecmaVersion: 13
   sourceType: module
 rules:
   no-console: off
   no-underscore-dangle: [2, { "allow": ["__filename", "__dirname"] }]
+  import/extensions: [off]
