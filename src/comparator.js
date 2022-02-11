@@ -9,8 +9,8 @@ export default function getObjectsDiff(obj1, obj2) {
     const value2 = obj2?.[key];
     const result = {
       key,
-      oldValue: _.isObject(value1) ? getObjectsDiff(value1, value1) : value1,
-      newValue: _.isObject(value2) ? getObjectsDiff(value2, value2) : value2,
+      oldValue: value1,
+      newValue: value2,
     };
 
     if (_.isObject(value1) && _.isObject(value2)) {
@@ -25,7 +25,7 @@ export default function getObjectsDiff(obj1, obj2) {
       return result;
     }
 
-    if (value1 !== value2 && (_.has(obj1, key) && _.has(obj2, key))) {
+    if (value1 !== value2 && _.has(obj1, key) && _.has(obj2, key)) {
       result.type = 'modified';
       return result;
     }

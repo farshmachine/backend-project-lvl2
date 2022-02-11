@@ -1,4 +1,4 @@
-import { load } from 'js-yaml';
+import { load } from "js-yaml";
 
 function json(data) {
   return JSON.parse(data);
@@ -10,6 +10,4 @@ function yaml(data) {
 
 const yml = yaml;
 
-export {
-  json, yaml, yml,
-};
+export { json, yaml, yml };
