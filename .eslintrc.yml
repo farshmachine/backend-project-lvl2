@@ -13,4 +13,4 @@ rules:
   no-console: off
   no-underscore-dangle: [2, { 'allow': ['__filename', '__dirname'] }]
   import/extensions: [off]
-  quotes: single
+  prettier/prettier: [error, { singleQuote: true }]
