@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import { isAbsolute, resolve } from 'path';
+import { isAbsolute, join, resolve } from 'path';
 
 function getSortedUniqKeys(obj1, obj2) {
   const keys = _.uniq(Object.keys({ ...obj1, ...obj2 }));
@@ -8,7 +8,7 @@ function getSortedUniqKeys(obj1, obj2) {
 }
 
 function resolvePath(path) {
-  return isAbsolute(path) ? resolve(process.cwd(), path) : resolve(path);
+  return isAbsolute(path) ? join(process.cwd(), path) : resolve(path);
 }
 
 function getIndent(type) {
@@ -23,8 +23,4 @@ function getIndent(type) {
   }
 }
 
-export {
-  getSortedUniqKeys,
-  resolvePath,
-  getIndent,
-};
+export { getSortedUniqKeys, resolvePath, getIndent };
