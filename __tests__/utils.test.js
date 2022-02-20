@@ -1,6 +1,6 @@
 import { describe, expect, it } from '@jest/globals';
-import { getIndent, getSortedUniqKeys, resolvePath } from '../src/utils';
 import path from 'path';
+import { getIndent, getSortedUniqKeys, resolvePath } from '../src/utils';
 
 describe('utils', () => {
   describe('getSortedUniqKeys', () => {
