@@ -1,0 +1,361 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Jun 16 21:21:25 2022
+
+# Variables
+
+# environment
+SYSTEMDRIVE = C:
+# environment
+LC_ALL = C
+# environment
+USERPROFILE = C:\Users\Mishka
+# environment
+TMPDIR = C:\Users\Mishka\AppData\Local\Temp
+# environment
+LOCALAPPDATA = C:\Users\Mishka\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-0910692d-0a4b-4f7a-a83f-6712c5f33d9d-sock
+# environment
+VSCODE_CWD = C:\Users\Mishka\github\backend-project-lvl2
+# environment
+MINGW_PREFIX = C:/Program Files/Git/mingw64
+# environment
+SYSTEMROOT = C:\Windows
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+ACLOCAL_PATH = C:\Program Files\Git\mingw64\share\aclocal;C:\Program Files\Git\usr\share\aclocal
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_15440_ZTBGQXIHPQKAVHED
+# environment
+ORIGINAL_TEMP = C:/Users/Mishka/AppData/Local/Temp
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = C:/Users/Mishka/github/backend-project-lvl2
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+HOSTNAME = DESKTOP-E6AINU1
+# environment
+OLDPWD = C:/Users/Mishka
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Mishka\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+SSH_ASKPASS = C:/Program Files/Git/mingw64/bin/git-askpass.exe
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\Mishka\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile
+MAKEFLAGS = pqrR
+# environment
+PKG_CONFIG_PATH = C:\Program Files\Git\mingw64\lib\pkgconfig;C:\Program Files\Git\mingw64\share\pkgconfig
+# makefile
+CURDIR := c:/Users/Mishka/github/backend-project-lvl2
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+MSYSTEM_CARCH = x86_64
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST := makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 15440
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+MINGW_CHOST = x86_64-w64-mingw32
+# automatic
+*F = $(notdir $*)
+# environment
+MANPATH = C:\Program Files\Git\mingw64\local\man;C:\Program Files\Git\mingw64\share\man;C:\Program Files\Git\usr\local\man;C:\Program Files\Git\usr\share\man;C:\Program Files\Git\usr\man;C:\Program Files\Git\share\man
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := Windows32
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+INFOPATH = C:\Program Files\Git\usr\local\info;C:\Program Files\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info
+# makefile
+SHELL = C:/Program Files/Git/usr/bin/sh.exe
+# environment
+ORIGINAL_PATH = C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Mishka\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Program Files\WireGuard;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;%NVM_HOME%;%NVM_SYMLINK%;C:\Program Files\dotnet;C:\Users\Mishka\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\Mishka\AppData\Local\Programs\Python\Python310;C:\Users\Mishka\AppData\Local\Microsoft\WindowsApps;C:\Users\Mishka\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Mishka\AppData\Roaming\npm;C:\Users\Mishka\AppData\Roaming\nvm;C:\Program Files\nodejs
+# environment
+HOMEPATH = \Users\Mishka
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 2
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# environment
+WINDIR = C:\Windows
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Users\Mishka\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Mishka\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Program Files\WireGuard;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;%NVM_HOME%;%NVM_SYMLINK%;C:\Program Files\dotnet;C:\Users\Mishka\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\Mishka\AppData\Local\Programs\Python\Python310;C:\Users\Mishka\AppData\Local\Microsoft\WindowsApps;C:\Users\Mishka\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Mishka\AppData\Roaming\npm;C:\Users\Mishka\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+COMPUTERNAME = DESKTOP-E6AINU1
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+MINGW_PACKAGE_PREFIX = mingw-w64-x86_64
+# environment
+PROMPT = $P$G
+# environment
+LOGONSERVER = \\DESKTOP-E6AINU1
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = Mishka 
+
+# environment
+TERM_PROGRAM = mintty
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+MSYSTEM_CHOST = x86_64-w64-mingw32
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+CONFIG_SITE = C:/Program Files/Git/etc/config.site
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = DESKTOP-E6AINU1
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# environment
+MSYSTEM_PREFIX = C:/Program Files/Git/mingw64
+# makefile
+.DEFAULT_GOAL := install
+# environment
+NVM_HOME = C:\Users\Mishka\AppData\Roaming\nvm
+# environment
+DISPLAY = needs-to-be-defined
+# default
+MAKE_VERSION := 4.3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-E6AINU1
+# environment
+NUMBER_OF_PROCESSORS = 4
+# environment
+PUBLIC = C:\Users\Public
+# environment
+_ = C:/Users/Mishka/AppData/Local/Programs/Microsoft VS Code/Code.exe
+# environment
+MOZ_PLUGIN_PATH = C:\Program Files (x86)\Foxit Software\Foxit PDF Reader\plugins\
+# environment
+APPDATA = C:\Users\Mishka\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+NVM_SYMLINK = C:\Program Files\nodejs
+# environment
+LC_CTYPE = en_US.UTF-8
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+MSYSTEM = MINGW64
+# environment
+HOME = C:\Users\Mishka
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+EXEPATH = C:\Program Files\Git
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\Mishka\AppData\Local\Temp
+# environment
+TERM = xterm
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\fa765f340319e207c6854820e46d9248-1.68.1-main-sock
+# default
+.RECIPEPREFIX := 
+# environment
+ORIGINAL_TMP = C:/Users/Mishka/AppData/Local/Temp
+# automatic
+<F = $(notdir $<)
+# environment
+PLINK_PROTOCOL = ssh
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = 8e09
+# environment
+TERM_PROGRAM_VERSION = 3.5.2
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+# variable set hash-table stats:
+# Load=127/1024=12%, Rehash=0, Collisions=12/154=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key c:/Users/Mishka/github/backend-project-lvl2, mtime 1655403684): 18 files, no impossibilities.
+
+# 18 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+lint:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 11):
+	npx eslint .
+
+make:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 11):
+	npx eslint .
+
+gendiff:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 5):
+	node bin/gendiff.js
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+publish:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 8):
+	npm publish --dry-run
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-15 22:39:13
+#  File has been updated.
+#  Successfully updated.
+
+install:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 2):
+	npm ci
+
+# files hash-table stats:
+# Load=9/1024=1%, Rehash=0, Collisions=0/19=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 26 / storage = 223 B / avg = 8 B
+# current buf: size = 8174 B / used = 223 B / count = 26 / avg = 8 B
+
+# strcac 
+he performance: lookups = 35 / hit rate = 25%
+# hash-table stats:
+# Load=26/8192=0%, Rehash=0, Collisions=0/35=0%
+# Finished Make data base on Thu Jun 16 21:21:25 2022
+
+ 
