@@ -14,6 +14,7 @@ program
   .action((filepath1, filepath2, { format }) => {
     const diff = getDiff(format, filepath1, filepath2);
     console.log(diff);
+    console.log(typeof getDiff);
   });
 
 program.parse();

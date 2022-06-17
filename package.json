@@ -5,7 +5,7 @@
     "gendiff": "bin/gendiff.js"
   },
   "description": "[![Actions Status](https://github.com/farshmachine/backend-project-lvl2/workflows/hexlet-check/badge.svg)](https://github.com/farshmachine/backend-project-lvl2/actions)",
-  "main": "index.js",
+  "main": "./src/index.js",
   "type": "module",
   "scripts": {
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest"
