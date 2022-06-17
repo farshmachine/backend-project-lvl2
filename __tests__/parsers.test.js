@@ -5,7 +5,7 @@ import { json, yaml } from '../src/parsers';
 
 describe('parsers', () => {
   it('should parse json file', () => {
-    const p = path.join(process.cwd(), '__tests__/__fixtures__/data.json');
+    const p = path.join(process.cwd(), '__fixtures__/data.json');
     const data = fs.readFileSync(p);
     const parsedData = json(data);
 
@@ -14,7 +14,7 @@ describe('parsers', () => {
   });
 
   it('should parse yaml file', () => {
-    const p = path.join(process.cwd(), '__tests__/__fixtures__/data.yml');
+    const p = path.join(process.cwd(), '__fixtures__/data.yml');
     const data = fs.readFileSync(p);
     const parsedData = yaml(data);
 
