@@ -79,9 +79,17 @@ function plain(data) {
   return iter(data, '');
 }
 
+function json(data) {
+  return JSON.stringify(data);
+}
+
 function getFormater(type) {
   if (type === 'plain') {
     return plain;
+  }
+
+  if (type === 'json') {
+    return json;
   }
 
   return stylish;

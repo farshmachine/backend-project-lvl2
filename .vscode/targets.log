@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jun 16 21:21:25 2022
+# Make data base, printed on Fri Jun 17 23:22:30 2022
 
 # Variables
 
@@ -23,7 +23,7 @@ TMPDIR = C:\Users\Mishka\AppData\Local\Temp
 # environment
 LOCALAPPDATA = C:\Users\Mishka\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-0910692d-0a4b-4f7a-a83f-6712c5f33d9d-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-4321f026-6ead-4ffd-a784-fd45155c5138-sock
 # environment
 VSCODE_CWD = C:\Users\Mishka\github\backend-project-lvl2
 # environment
@@ -41,7 +41,7 @@ MAKE_COMMAND := make.exe
 # environment
 ACLOCAL_PATH = C:\Program Files\Git\mingw64\share\aclocal;C:\Program Files\Git\usr\share\aclocal
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_15440_ZTBGQXIHPQKAVHED
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_10144_CGORXJUOCZNIBYFC
 # environment
 ORIGINAL_TEMP = C:/Users/Mishka/AppData/Local/Temp
 # environment
@@ -87,7 +87,7 @@ VSCODE_PIPE_LOGGING = true
 # environment
 MSYSTEM_CARCH = x86_64
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
 *D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
 # environment
@@ -107,7 +107,7 @@ MAKEFILE_LIST := makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 15440
+VSCODE_PID = 10144
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # environment
@@ -165,9 +165,9 @@ LOGONSERVER = \\DESKTOP-E6AINU1
 # environment
 VSCODE_LOG_NATIVE = false
 # environment
-USERNAME = Mishka 
-
-# environment
+USERNAME = Mishka
+#  
+environment
 TERM_PROGRAM = mintty
 # environment
 COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
@@ -330,16 +330,17 @@ publish:
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-01-15 22:39:13
+#  Last modified 2022-06-17 11:27:14
 #  File has been updated.
-#  Successfully updated.
+#  Success 
+fully updated.
 
 install:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'makefile', line 2):
-	npm ci
+	npm i
 
 # files hash-table stats:
 # Load=9/1024=1%, Rehash=0, Collisions=0/19=0%
@@ -352,10 +353,9 @@ install:
 # strcache buffers: 1 (0) / strings = 26 / storage = 223 B / avg = 8 B
 # current buf: size = 8174 B / used = 223 B / count = 26 / avg = 8 B
 
-# strcac 
-he performance: lookups = 35 / hit rate = 25%
+# strcache performance: lookups = 35 / hit rate = 25%
 # hash-table stats:
 # Load=26/8192=0%, Rehash=0, Collisions=0/35=0%
-# Finished Make data base on Thu Jun 16 21:21:25 2022
+# Finished Make data base on Fri Jun 17 23:22:30 2022
 
  

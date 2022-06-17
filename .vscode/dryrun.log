@@ -1,4 +1,5 @@
+make.exe --dry-run --always-make --keep-going --print-directory
 make: Entering directory 'c:/Users/Mishka/github/backend-project-lvl2'
-npm ci
+npm i
 make: Leaving directory 'c:/Users/Mishka/github/backend-project-lvl2'
  
