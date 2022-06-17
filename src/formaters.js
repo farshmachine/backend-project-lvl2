@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import { getIndent } from './utils.js';
+import { getIndent, getPlainFormatedValue } from './utils.js';
 
 function stringify(value, depth) {
   const indent = '    '.repeat(depth);
@@ -15,8 +15,7 @@ function stringify(value, depth) {
   return ['{', ...lines, `${bracketIndent}}`].join('\n');
 }
 
-// eslint-disable-next-line import/prefer-default-export
-export function stylish(data) {
+function stylish(data) {
   function iter(tree, depth) {
     const currentIndent = '    '.repeat(depth - 1);
 
@@ -48,3 +47,45 @@ export function stylish(data) {
   }
   return iter(data, 1);
 }
+
+function plain(data) {
+  function iter(tree, path) {
+    const lines = tree.flatMap((node) => {
+      const { type, children, oldValue, newValue, key } = node;
+      const currentPath = path ? `${path}.${key}` : key;
+      switch (type) {
+        case 'equal':
+        case 'added':
+          return `Property '${currentPath}' was added with value: ${getPlainFormatedValue(
+            newValue
+          )}`;
+        case 'deleted':
+          return `Property ${currentPath} was removed`;
+        case 'tree':
+          return iter(children, currentPath);
+        case 'modified': {
+          return `Property ${currentPath} was updated. From ${getPlainFormatedValue(
+            oldValue
+          )} to ${getPlainFormatedValue(newValue)}`;
+        }
+        default:
+          return '';
+      }
+    });
+
+    return lines.join('\n');
+  }
+
+  return iter(data, '');
+}
+
+function getFormater(type) {
+  if (type === 'plain') {
+    return plain;
+  }
+
+  return stylish;
+}
+
+// eslint-disable-next-line import/prefer-default-export
+export { getFormater };

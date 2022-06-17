@@ -23,4 +23,16 @@ function getIndent(type) {
   }
 }
 
-export { getSortedUniqKeys, resolvePath, getIndent };
+function getPlainFormatedValue(value) {
+  if (typeof value === 'string') {
+    return `'${value}'`;
+  }
+
+  if (typeof value === 'object') {
+    return `[complex value]`;
+  }
+
+  return value;
+}
+
+export { getSortedUniqKeys, resolvePath, getIndent, getPlainFormatedValue };
