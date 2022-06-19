@@ -8,10 +8,12 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jun 17 23:22:30 2022
+# Make data base, printed on Sun Jun 19 22:17:16 2022
 
 # Variables
 
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
@@ -23,7 +25,7 @@ TMPDIR = C:\Users\Mishka\AppData\Local\Temp
 # environment
 LOCALAPPDATA = C:\Users\Mishka\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-4321f026-6ead-4ffd-a784-fd45155c5138-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-5eb54175-5f9d-4bd2-aad6-27c78512556a-sock
 # environment
 VSCODE_CWD = C:\Users\Mishka\github\backend-project-lvl2
 # environment
@@ -41,9 +43,11 @@ MAKE_COMMAND := make.exe
 # environment
 ACLOCAL_PATH = C:\Program Files\Git\mingw64\share\aclocal;C:\Program Files\Git\usr\share\aclocal
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_10144_CGORXJUOCZNIBYFC
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_7736_KIUZBBYWKADDIZIS
 # environment
 ORIGINAL_TEMP = C:/Users/Mishka/AppData/Local/Temp
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -55,7 +59,7 @@ PWD = C:/Users/Mishka/github/backend-project-lvl2
 # environment
 HOSTNAME = DESKTOP-E6AINU1
 # environment
-OLDPWD = C:/Users/Mishka
+OLDPWD = C:/Users/Mishka/github
 # automatic
 ^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
 # environment
@@ -107,7 +111,7 @@ MAKEFILE_LIST := makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 10144
+VSCODE_PID = 7736
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # environment
@@ -129,7 +133,7 @@ INFOPATH = C:\Program Files\Git\usr\local\info;C:\Program Files\Git\usr\share\in
 # makefile
 SHELL = C:/Program Files/Git/usr/bin/sh.exe
 # environment
-ORIGINAL_PATH = C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Mishka\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Program Files\WireGuard;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;%NVM_HOME%;%NVM_SYMLINK%;C:\Program Files\dotnet;C:\Users\Mishka\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\Mishka\AppData\Local\Programs\Python\Python310;C:\Users\Mishka\AppData\Local\Microsoft\WindowsApps;C:\Users\Mishka\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Mishka\AppData\Roaming\npm;C:\Users\Mishka\AppData\Roaming\nvm;C:\Program Files\nodejs
+ORIGINAL_PATH = C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Mishka\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Program Files\WireGuard;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Mishka\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\dotnet;C:\Users\Mishka\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\Mishka\AppData\Local\Programs\Python\Python310;C:\Users\Mishka\AppData\Local\Microsoft\WindowsApps;C:\Users\Mishka\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Mishka\AppData\Roaming\npm;C:\Users\Mishka\AppData\Roaming\nvm;C:\Program Files\nodejs
 # environment
 HOMEPATH = \Users\Mishka
 # default
@@ -147,7 +151,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\Users\Mishka\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Mishka\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Program Files\WireGuard;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;%NVM_HOME%;%NVM_SYMLINK%;C:\Program Files\dotnet;C:\Users\Mishka\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\Mishka\AppData\Local\Programs\Python\Python310;C:\Users\Mishka\AppData\Local\Microsoft\WindowsApps;C:\Users\Mishka\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Mishka\AppData\Roaming\npm;C:\Users\Mishka\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+PATH = C:\Users\Mishka\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Mishka\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Program Files\WireGuard;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Mishka\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\dotnet;C:\Users\Mishka\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\Mishka\AppData\Local\Programs\Python\Python310;C:\Users\Mishka\AppData\Local\Microsoft\WindowsApps;C:\Users\Mishka\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Mishka\AppData\Roaming\npm;C:\Users\Mishka\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
 # environment
 ZES_ENABLE_SYSMAN = 1
 # environment
@@ -166,8 +170,7 @@ LOGONSERVER = \\DESKTOP-E6AINU1
 VSCODE_LOG_NATIVE = false
 # environment
 USERNAME = Mishka
-#  
-environment
+# environment
 TERM_PROGRAM = mintty
 # environment
 COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
@@ -268,7 +271,7 @@ TERM_PROGRAM_VERSION = 3.5.2
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
 # variable set hash-table stats:
-# Load=127/1024=12%, Rehash=0, Collisions=12/154=8%
+# Load=129/1024=13%, Rehash=0, Collisions=13/156=8%
 
 # Pattern-specific Variable Values
 
@@ -276,9 +279,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
 
 # Directories
 
-# . (key c:/Users/Mishka/github/backend-project-lvl2, mtime 1655403684): 18 files, no impossibilities.
+# . (key c:/Users/Mishka/github/backend-project-lvl2, mtime 1655499349): 19 files, no impossibilities.
 
-# 18 files, no impossibilities in 1 directories.
+# 19 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -332,8 +335,7 @@ makefile:
 #  Implicit rule search has been done.
 #  Last modified 2022-06-17 11:27:14
 #  File has been updated.
-#  Success 
-fully updated.
+#  Successfully updated.
 
 install:
 #  Implicit rule search has not been done.
@@ -350,12 +352,12 @@ install:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 26 / storage = 223 B / avg = 8 B
-# current buf: size = 8174 B / used = 223 B / count = 26 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 27 / storage = 236 B / avg = 8 B
+# current buf: size = 8174 B / used = 236 B / count = 27 / avg = 8 B
 
-# strcache performance: lookups = 35 / hit rate = 25%
+# strcache performance: lookups = 36 / hit rate = 25%
 # hash-table stats:
-# Load=26/8192=0%, Rehash=0, Collisions=0/35=0%
-# Finished Make data base on Fri Jun 17 23:22:30 2022
+# Load=27/8192=0%, Rehash=0, Collisions=0/36=0%
+# Finished Make data base on Sun Jun 19 22:17:16 2022
 
  
