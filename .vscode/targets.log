@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Jun 19 22:17:16 2022
+# Make data base, printed on Thu Jul 21 16:20:28 2022
 
 # Variables
 
@@ -25,7 +25,7 @@ TMPDIR = C:\Users\Mishka\AppData\Local\Temp
 # environment
 LOCALAPPDATA = C:\Users\Mishka\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-5eb54175-5f9d-4bd2-aad6-27c78512556a-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-0c0bd138-3336-4dc7-94bf-c9c002507950-sock
 # environment
 VSCODE_CWD = C:\Users\Mishka\github\backend-project-lvl2
 # environment
@@ -43,7 +43,7 @@ MAKE_COMMAND := make.exe
 # environment
 ACLOCAL_PATH = C:\Program Files\Git\mingw64\share\aclocal;C:\Program Files\Git\usr\share\aclocal
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_7736_KIUZBBYWKADDIZIS
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_14352_IEARGNSHXXETQOBR
 # environment
 ORIGINAL_TEMP = C:/Users/Mishka/AppData/Local/Temp
 # environment
@@ -59,7 +59,7 @@ PWD = C:/Users/Mishka/github/backend-project-lvl2
 # environment
 HOSTNAME = DESKTOP-E6AINU1
 # environment
-OLDPWD = C:/Users/Mishka/github
+OLDPWD = C:/Users/Mishka
 # automatic
 ^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
 # environment
@@ -111,7 +111,7 @@ MAKEFILE_LIST := makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 7736
+VSCODE_PID = 14352
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # environment
@@ -137,7 +137,8 @@ ORIGINAL_PATH = C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:
 # environment
 HOMEPATH = \Users\Mishka
 # default
-MAKECMDGOALS := all
+MAKECMDGOAL 
+S := all
 # environment
 SHLVL = 2
 # environment
@@ -213,6 +214,8 @@ NUMBER_OF_PROCESSORS = 4
 # environment
 PUBLIC = C:\Users\Public
 # environment
+ASL.LOG = Destination=file
+# environment
 _ = C:/Users/Mishka/AppData/Local/Programs/Microsoft VS Code/Code.exe
 # environment
 MOZ_PLUGIN_PATH = C:\Program Files (x86)\Foxit Software\Foxit PDF Reader\plugins\
@@ -271,7 +274,7 @@ TERM_PROGRAM_VERSION = 3.5.2
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
 # variable set hash-table stats:
-# Load=129/1024=13%, Rehash=0, Collisions=13/156=8%
+# Load=130/1024=13%, Rehash=0, Collisions=13/157=8%
 
 # Pattern-specific Variable Values
 
@@ -326,7 +329,8 @@ all:
 publish:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
-#  File has not been updated.
+#  File  
+has not been updated.
 #  recipe to execute (from 'makefile', line 8):
 	npm publish --dry-run
 
@@ -358,6 +362,6 @@ install:
 # strcache performance: lookups = 36 / hit rate = 25%
 # hash-table stats:
 # Load=27/8192=0%, Rehash=0, Collisions=0/36=0%
-# Finished Make data base on Sun Jun 19 22:17:16 2022
+# Finished Make data base on Thu Jul 21 16:20:28 2022
 
  
