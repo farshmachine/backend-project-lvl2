@@ -12,6 +12,7 @@ program
   .argument('<filepath2>')
   .option('-f, --format [type]', 'output formats: stylish, plain', 'stylish')
   .action((filepath1, filepath2, { format }) => {
+    console.log(filepath1, filepath2);
     const diff = getDiff(format, filepath1, filepath2);
     console.log(diff);
   });
